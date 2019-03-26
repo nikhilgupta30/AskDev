@@ -5,7 +5,8 @@ import {
   PROFILE_LOADING,
   CLEAR_CURRENT_PROFILE,
   GET_ERRORS,
-  SET_CURRENT_USER
+  SET_CURRENT_USER,
+  GET_PROFILES
 } from './types';
 
 // Get current profile
@@ -64,6 +65,26 @@ export const addEducation = (eduData, history) => dispatch => {
         payload: err.response.data
       })
     );
+};
+
+// Delete experience
+export const deleteExperience = id => dispatch => {
+  if (window.confirm('Are you sure? This can NOT be undone!')) {
+    axios
+      .delete(`/api/profile/experience/${id}`)
+      .then(res =>
+        dispatch({
+          type: GET_PROFILE,
+          payload: res.data
+        })
+      )
+      .catch(err =>
+        dispatch({
+          type: GET_ERRORS,
+          payload: err.response.data
+        })
+      );
+  }
 };
 
 // Delete account and profile
