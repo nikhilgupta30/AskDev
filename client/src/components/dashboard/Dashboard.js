@@ -10,7 +10,11 @@ import Education from './Education';
 
 class Dashboard extends Component {
   componentDidMount() {
-    this.props.getCurrentProfile();
+    if (!this.props.auth.isAuthenticated) {
+      this.props.history.push('/login');
+    } else {
+      this.props.getCurrentProfile();
+    }
   }
 
   onDeleteClick(e) {
