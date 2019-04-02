@@ -6,7 +6,7 @@
 .pnp.js
 
 # Config
-/src/config
+/src/config/githubKeys_dev.js
 
 # testing
 /coverage

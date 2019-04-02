@@ -1,5 +1,6 @@
 /node_modules
 
-/config
+/config/keys_dev.js
+/config/githubKeys.js
 
 package-lock.json
