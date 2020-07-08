@@ -70,9 +70,7 @@ Intall Dependencies for Server
 > npm install
 
 Intall Dependencies for Client
-> cd client
-<br>
-> npm install
+> cd client<br>npm install
 
 To Start the Development Server
 > npm start
