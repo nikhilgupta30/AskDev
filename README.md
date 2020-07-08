@@ -53,18 +53,13 @@ Create a Branch with your name
 
 > `git checkout -b <branch_name>`
 
-#### Coding 
+#### Preferences 
 
-- **Preferred Editor**
-<br>
-VS Code
+- **Preferred Editor** : VS Code
 
-- **Package Manager**
-<br>
-npm
+- **Package Manager** : npm
 
 - **Extensions Recommended while Coding**
-<br>
   1. ES7 React/Redux/React-Native/JS snippets
   2. Node.js Modules Intellisense
   3. npm Intellisense
