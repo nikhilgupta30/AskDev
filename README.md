@@ -7,13 +7,13 @@ Visit the Website here : https://askdeveloper.herokuapp.com/
 
 ## **Using the Website**
 
-## Signing Up
+### Signing Up
 - Signing Up to the Website requires Name, Email Id and a Password.
 
-## Logging In
+### Logging In
 - If you already have a account just go to the Login tab and enter email, password and you will be redirected to your dashboard
 
-## Dashboard
+### Dashboard
 >Dashboard provides you with following options
 > - View Profile
 > - Edit/Create Profile
@@ -32,11 +32,11 @@ Visit the Website here : https://askdeveloper.herokuapp.com/
 #### Add Education
 - Click on this tab to add education history to your profile.
 
-## Developers Tab
+### Developers Tab
 - Developers Tab List the names and profile overview of developers on the platform. 
 - Click on View Profile to view detailed information of developer.
 
-## Post Feed
+### Post Feed
 - Using Post Feed tab you can Ask Any Question related to the programming/development etc. and Developers expertise in that domain will help you.
 
 - You can also answer any question or involve in a discussion in any other question asked by another developer.
